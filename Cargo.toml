@@ -1,8 +1,13 @@
 [package]
-name = "malaga_networkobj"
+name = "malaga_http_utils"
 version = "0.1.0"
 authors = ["spieljs <spieljs@gmail.com>"]
 edition = "2018"
+repository = "https://github.com/spielrs/malaga-http_utils"
+keywords = ["malaga", "http", "utils"]
+categories = ["utils", "network"]
+license = "MIT"
+license-file = "LICENSE"
 
 [dependencies]
 serde = "1.0"
