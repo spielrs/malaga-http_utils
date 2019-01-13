@@ -5,7 +5,7 @@ authors = ["spieljs <spieljs@gmail.com>"]
 edition = "2018"
 repository = "https://github.com/spielrs/malaga-http_utils"
 keywords = ["malaga", "http", "utils"]
-categories = ["utils", "network"]
+categories = ["utils", "http"]
 license = "MIT"
 license-file = "LICENSE"
 
