@@ -2,6 +2,10 @@
 
 `malaga_http_utils` is a small library to handler request and response objects
 
+## Documentation
+
+[https://docs.rs/malaga_http_utils/0.1.2/malaga_http_utils/](https://docs.rs/malaga_http_utils/0.1.2/malaga_http_utils/)
+
 ## Example:
 
 ```rust
