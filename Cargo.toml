@@ -1,6 +1,7 @@
 [package]
 name = "malaga_http_utils"
 version = "0.1.0"
+description = "Small library to handler request and response objects"
 authors = ["spieljs <spieljs@gmail.com>"]
 edition = "2018"
 repository = "https://github.com/spielrs/malaga-http_utils"
