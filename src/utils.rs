@@ -1,5 +1,5 @@
-///Enum of network methods
-#[derive(Serialize, Deserialize, Debug)]
+/// Enum of verb methods
+#[derive(Serialize, Deserialize, Debug, PartialEq)]
 pub enum Methods {
     GET,
     HEAD,
@@ -12,7 +12,25 @@ pub enum Methods {
     PATCH,
 }
 
-///Function to get and filter method
+/// Function to get and filter method
+/// 
+/// ## Example:
+/// 
+/// ```
+/// use malaga_http_utils::utils::*;
+/// 
+/// struct Verb {
+///     method: Methods,
+/// }
+/// 
+/// fn main() {
+///     let verb = Verb { method: Methods::GET};
+///     
+///     let method = get_method(verb.method);
+/// 
+///     assert_eq!(method, "GET");
+/// }
+/// ```
 pub fn get_method(method: Methods) -> String {
     match method {
         Methods::GET => String::from("GET"),
