@@ -4,7 +4,7 @@
 
 ## Documentation
 
-[https://docs.rs/malaga_http_utils/0.1.2/malaga_http_utils/](https://docs.rs/malaga_http_utils/0.1.2/malaga_http_utils/)
+[https://docs.rs/malaga_http_utils/0.1.4/malaga_http_utils/](https://docs.rs/malaga_http_utils/0.1.2/malaga_http_utils/)
 
 ## Example:
 
